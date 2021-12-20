@@ -1,1 +1,7 @@
-module.exports={}; // from test 0.39543403479775585
+module.exports = {
+  http: {
+    cors: {
+      origin: 'https://myapp.com',
+    },
+  },
+};
