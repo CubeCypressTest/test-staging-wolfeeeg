@@ -1,7 +1,1 @@
-module.exports = {
-  http: {
-    cors: {
-      origin: 'https://myapp.com',
-    },
-  },
-};
+module.exports={}; // from test 0.261633652565062
