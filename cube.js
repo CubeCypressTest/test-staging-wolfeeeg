@@ -1,7 +1,12 @@
 module.exports = {
   http: {
     cors: {
-      origin: 'https://crude-tortoise.gcp-northamerica-northeast1.cubecloudapp.dev',
+      origin: '*',
+      methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+      preflightContinue: false,
+      optionsSuccessStatus: 204,
+      maxAge: 86400,
+      credentials: true,
     },
   },
 };
