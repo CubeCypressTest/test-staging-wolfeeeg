@@ -1,1 +1,4 @@
-module.exports={}; // from test new fixxxx
+module.exports={
+  
+}; // from test new fixxxx
+econsole.log("fsdf");
